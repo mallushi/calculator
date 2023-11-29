@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 560px;
+    border:black solid 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(233, 230, 230);
+}
+
+#display{
+    border: #080000 solid 1px;
+    width: 340px;
+    height: 100px;
+    background-color: white;
+}
+
+button{
+    margin:5px;
+    font-size: 25px;
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+#clean{
+    background-color: #c45959;
+    width: 170px;
+    border-radius: 10px;
+}
+
+#backspace{
+    width: 170px;
+}
+
+.num{
+    background-color: white;
+}
